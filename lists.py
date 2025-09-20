@@ -176,9 +176,24 @@
 
 # ind max digit for every number in the given list
 
-def max_digit(list1):
+def max_digit_each(lst):
     result = []
-    for 
+    for num in lst:
+        n = num
+        max_d = 0
+        while n > 0:
+            digit = n % 10
+            if digit == 9:   
+                max_d = 9
+                break
+            if digit > max_d:
+                max_d = digit
+            n //= 10
+        result.append(max_d)
+    return result
+numbers = [123, 4567, 890, 9325]
+print(max_digit_each(numbers))
+
 
 
 
