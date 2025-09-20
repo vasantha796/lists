@@ -82,8 +82,18 @@
 # print(a.issuperset(b))
 
 # isdisjoint(): returns true if 2 sets have elemnts in common
-a={1,2}
-b=(3,4)
-print(a.isdisjoint(b))
+# a={1,2}
+# b=(3,4)
+# print(a.isdisjoint(b))
+
+
+
+# ###frozen set
+# as frozen set is immutable only copy(),union()
+# intersection(),dffrence(),
+# symmetric_diffrence(),issubset(),issuperset(),isdisjoint()  possible
+#
+# methods like add(),remove(),clear() 
+# 
 
 

@@ -33,8 +33,8 @@ print(s1.school_name) # class variable via obj
 # Student.show() #needs obj like:self
 # Student.show(s1) #manual way pass is possible
 
-# static method
-print(Student.is_age(18))
+
+
 
 
 

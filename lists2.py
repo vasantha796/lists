@@ -119,24 +119,25 @@
 # low = 0
 # high = len(l)-1
 # while low < high :
-#     l[low],l[high] = l[high],l[low]
-#     low += 1
-#     high -= 1
+# #     l[low],l[high] = l[high],l[low]
+# #     low += 1
+# #     high -= 1
 
-# print(l)    
+# # print(l)    
 
-# rev a str two pointer approach doesnt work on  str why ?
-# sum of digits in a particular num of a list [123,44,521] = [6,8,8]
+# # rev a str two pointer approach doesnt work on  str why ?
+# # sum of digits in a particular num of a list [123,44,521] = [6,8,8]
 
-# sorting
-# bubble sort & linear search
+# # sorting
+# # bubble sort & linear search
 
-list1 = [10,-3,700,45,23,100,-300]
-for i in range(0, len(list1)- 1):
-    if list1[i] > list1[i+1]:
-        list1[i],list1[i+1] = list1[i+1],list1[i]
+# list1 = [10,-3,700,45,23,100,-300]
+# for i in range(0, len(list1)- 1):
+#     if list1[i] > list1[i+1]:
+#         list1[i],list1[i+1] = list1[i+1],list1[i]
 
-    print(list1)
+#     print(list1)
+# 6 iterations are enough 
 
 
 

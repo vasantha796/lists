@@ -1,11 +1,11 @@
-# print only prime digits in a number #12421
+#1. print only prime digits in a number #12421
 n1=12421
 prime=[2,3,5,7]
 for i in str(n1):
     if int(i) in prime:
         print(i,end=" ")
 
-# palidrome
+# 2.palidrome
 n1="12421"
 n2=n1[::-1]
 if n1==n2:
@@ -13,7 +13,7 @@ if n1==n2:
 else:
     print("not a palindrome")    
 
-# even digits in a number
+# 3.even digits in a number
 
 n1=12421
 for i in str(n1):
@@ -22,7 +22,7 @@ for i in str(n1):
 
 # 2,4,2
 
-# perfect number #single
+# 4.perfect number #single
 n1=6
 sum=0
 for i in range(1,n1):
@@ -35,7 +35,7 @@ if sum==n1:
 else:
     print("not a perfect number")               
 
-# print perfect number from 1 to 100
+# 5.print perfect number from 1 to 100
 
 for n1 in range(1,101):
     sum=0
@@ -44,4 +44,4 @@ for n1 in range(1,101):
          sum+=i
 
     if sum==n1:
-        print(n1)    
+        print(n1,end=" ")   #6,28 
